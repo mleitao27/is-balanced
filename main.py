@@ -55,8 +55,8 @@ def isBalanced(exp):
         print(unbalancedIndex)
 
 def main():
-    exp = input('Insert expression > ')
-    isBalanced(exp.split(' ')[0])
+    exp = input('Insert expression> ')
+    isBalanced(exp)
 
 if __name__ == '__main__':
     main()
