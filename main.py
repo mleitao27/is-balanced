@@ -15,7 +15,7 @@ def isBalanced(exp):
         index += 1
         # Add opening brackets to stack
         if i == '(' or i == '[' or i == '{':
-            stack.append((i, index-1))
+            stack.append((i, index))
         # Ignore other chars
         elif(i != ')' and i != ']' and i != '}'):
             continue
@@ -39,7 +39,7 @@ def isBalanced(exp):
                     break
             # Closing brackets before opening
             else:
-                unbalancedIndex = index - 1
+                unbalancedIndex = index
                 balanced = False
                 break
     # Not matched opening brackets left in stack
