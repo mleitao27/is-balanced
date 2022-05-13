@@ -50,9 +50,9 @@ def isBalanced(exp):
     
     # Print answer
     if balanced:
-        print('balanced')
+        print('Balanced')
     else:
-        print(unbalancedIndex)
+        print('Not Balanced at ' + str(unbalancedIndex))
 
 def main():
     exp = input('Insert expression> ')
