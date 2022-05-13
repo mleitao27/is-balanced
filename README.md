@@ -8,9 +8,11 @@ Given an expression string exp, write a program to examine whether the pairs and
 Example:
   
 Input: exp = “[()]{}{[()()]()}”
+  
 Output: Balanced
   
 Input: exp = “[(])”
+  
 Output: Not Balanced
 
 
